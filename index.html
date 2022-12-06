@@ -14,8 +14,15 @@
     <input>
     <button onclick="add()">adicionar</button>
     <script>
-       function add()  {
-       
+       function add() {
+        const ul = document.querySelector('ul')
+        const input = document.querySelector('input')
+        //quero pegar o texto da nova ŧarefa
+        //o texto que esta escrito dentro do input, isso sim é a tarefa
+        const tarefa = input.value
+        
+        //criar um elemento li
+        const li = document.createElement('li') 
        
           
           } 
